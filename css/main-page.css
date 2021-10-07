@@ -23,8 +23,9 @@
     grid-area: head;
     display: flex;
     flex-direction: row;
-    justify-content: left;  
-    gap: 20px;
+    justify-content: left;
+    padding: 20px;
+    column-gap: 20px;
 
 }
 
@@ -50,7 +51,7 @@
 }
 
 #home-bttn {
-    margin-left: 20px;
+    
 
 }
 

@@ -15,14 +15,16 @@
     display:flex;
     border: 1px solid red;
     align-items: center;
+    justify-content: center;
     
 }
 
 #header {
+    grid-area: head;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    grid-area: head;
+    justify-content: left;  
+    gap: 20px;
 
 }
 
@@ -32,7 +34,13 @@
 }
 
 #content {
+    display: flex;
+    justify-content: space-around;
+    row-gap: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
     grid-area: cont;
+    padding: 50px;
 
 }
 
@@ -42,7 +50,7 @@
 }
 
 #home-bttn {
-    
+    margin-left: 20px;
 
 }
 
@@ -53,7 +61,23 @@
 
 }
 
-#blog-post-bttn {
-    
+#post-card {
+    display:flex;
+    flex-direction: column;
+    width: 350px;
+    height: 300px;
+
+}
+
+#post-card-image {
+    display: flex;
+    width: 350px;
+    height: 220px;
+
+}
+
+#post-card-title {
+    width: 350px;
+    height: 80px;
 
 }

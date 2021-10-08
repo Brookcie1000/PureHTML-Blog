@@ -9,7 +9,8 @@ gulp.task("sync", function() {
 
 gulp.task("default", gulp.series("sync", function() {
   gulp.watch("./css/*", gulp.series("sync"));
-  gulp.watch("./index.html").on('change', browserSync.reload)
+  gulp.watch("./index.html").on('change', browserSync.reload);
+  gulp.watch("./Blog Posts/*").on('change', browserSync.reload);
   
   return browserSync.init({
   server: "./"

@@ -1,0 +1,12 @@
+.page-layout {
+    display: grid;
+    grid-template-columns: 200px auto auto auto;
+    grid-template-rows: 80px 300px auto 50px;
+    border: 2px solid green;
+    grid-template-areas:
+    "logo head head head"
+    "image image image image"
+    "cont cont cont cont"
+    "foot foot foot foot"
+
+}

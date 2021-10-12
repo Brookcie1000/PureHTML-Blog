@@ -95,6 +95,9 @@ body {
 }
 
 #next-button {
+    display: flex;
+    padding: 20px;
+    justify-content: right;
     background-color: seashell;
     grid-area: bttn;
     margin-right: 5vw;

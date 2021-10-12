@@ -1,12 +1,11 @@
 .page-layout {
     display: grid;
     grid-template-columns: 200px auto auto auto;
-    grid-template-rows: 80px 300px auto 50px;
+    grid-template-rows: 80px auto 50px;
     border: 2px solid green;
     grid-template-areas:
     "logo head head head"
-    "image image image image"
-    "cont cont cont cont"
+    "auth cont cont cont"
     "foot foot foot foot"
 
 }
@@ -37,6 +36,23 @@
     column-gap: 20px;
     font-weight: bold;
     color: seashell;
+
+}
+
+#author {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    row-gap: 20px;
+    grid-area: auth;
+
+}
+
+#author-photo {
+    height: 160px;
+    width: 160px;
+    background-image: url(https://engineeringtutorial.com/wp-content/uploads/2016/07/Transformer-Open-and-Short-Circuit-Tests.png);
+    background-size: 100% 100%;
 
 }
 

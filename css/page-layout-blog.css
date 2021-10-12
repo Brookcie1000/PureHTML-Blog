@@ -52,12 +52,35 @@ body {
 }
 
 #content {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 80px 40px auto;
+    grid-template-areas:
+    "title"
+    "sub-title"
+    "txt";
     padding: 20px;
+    gap: 10px;
     grid-area: cont;
     margin-right: 5vw;
     
+}
+
+#title {
+    grid-area: title;
+
+}
+
+#sub-title {
+    grid-area: sub-title;
+
+}
+
+#txt {
+    grid-area: txt;
+    display: flex;
+    flex-direction: column;
+
 }
 
 #next-button {

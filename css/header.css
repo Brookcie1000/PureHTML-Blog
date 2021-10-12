@@ -1,0 +1,11 @@
+#header {
+    grid-area: head;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 20px;
+    column-gap: 20px;
+    font-weight: bold;
+    color: seashell;
+
+}

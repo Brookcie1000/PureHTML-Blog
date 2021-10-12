@@ -25,18 +25,6 @@ body {
     
 }
 
-#header {
-    grid-area: head;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    padding: 20px;
-    column-gap: 20px;
-    font-weight: bold;
-    color: seashell;
-
-}
-
 #main-image {
     grid-area: image;
 
@@ -51,11 +39,6 @@ body {
     flex-wrap: wrap;
     grid-area: cont;
     padding: 50px;
-
-}
-
-#footer {
-    grid-area: foot;
 
 }
 

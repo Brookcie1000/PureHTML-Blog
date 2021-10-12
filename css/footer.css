@@ -1,4 +1,27 @@
 #footer {
+    display: flex;
     grid-area: foot;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.social-ft {
+
+
+}
+
+#twitter-ft {
+
+
+}
+
+#facebook-ft {
+
+
+}
+
+#linkedin-ft {
+
 
 }

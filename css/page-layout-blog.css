@@ -1,11 +1,12 @@
 .page-layout {
     display: grid;
     grid-template-columns: 30vw auto auto auto;
-    grid-template-rows: 80px auto 50px;
+    grid-template-rows: 80px auto 50px 50px;
     border: 1px dashed green;
     grid-template-areas:
     "head head head head"
     "auth cont cont cont"
+    "auth bttn bttn bttn"
     "foot foot foot foot"
 
 }
@@ -19,7 +20,7 @@ body {
 
 .box {
     display:flex;
-    /*border: 1px dashed red;*/
+    border: 1px dashed red;
     align-items: center;
     justify-content: center;
     
@@ -40,6 +41,21 @@ body {
     width: 160px;
     box-shadow: 0 4px 8px 0 black;
     transition: 0.3s
+
+}
+
+#content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    grid-area: cont;
+    margin-right: 5vw;
+    
+}
+
+#next-button {
+    grid-area: bttn;
+    margin-right: 5vw;
 
 }
 

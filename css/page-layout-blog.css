@@ -50,7 +50,8 @@ body {
     height: 160px;
     width: 160px;
     box-shadow: 0 4px 8px 0 black;
-    transition: 0.3s
+    transition: 0.3s;
+    border: 1px solid black;
 
 }
 

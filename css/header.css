@@ -9,3 +9,12 @@
     color: seashell;
 
 }
+
+#logo {
+    grid-area: logo;
+    width: 200px;
+    height: 80px;
+    background-image: url(https://i0.wp.com/wptavern.com/wp-content/uploads/2016/06/udacity.png?ssl=1);
+    background-size: 100% 100%;
+
+}

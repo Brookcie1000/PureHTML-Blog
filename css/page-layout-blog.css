@@ -1,7 +1,7 @@
 .page-layout {
     display: grid;
     grid-template-columns: 30vw auto auto auto;
-    grid-template-rows: 8vh 86vh 50px;
+    grid-template-rows: 80px auto 50px;
     border: 1px dashed green;
     grid-template-areas:
     "head head head head"
@@ -19,7 +19,7 @@ body {
 
 .box {
     display:flex;
-    border: 1px dashed red;
+    /*border: 1px dashed red;*/
     align-items: center;
     justify-content: center;
     
@@ -38,6 +38,8 @@ body {
 #author-photo {
     height: 160px;
     width: 160px;
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.3s
 
 }
 

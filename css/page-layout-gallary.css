@@ -20,7 +20,7 @@ body {
 
 .box {
     display:flex;
-    border: 1px dashed red;
+    /*border: 1px dashed red;*/
     align-items: center;
     justify-content: center;
     
@@ -53,6 +53,8 @@ body {
     width: 250px;
     height: 200px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.3s
 
 }
 

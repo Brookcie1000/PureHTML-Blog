@@ -1,17 +1,17 @@
 #header {
+    background-color: lightsteelblue;
     grid-area: head;
     display: flex;
     flex-direction: row;
     justify-content: left;
-    padding: 20px;
+    padding-left: 5vw;
+    padding-right: 5vw;
     column-gap: 20px;
     font-weight: bold;
-    color: seashell;
 
 }
 
 #logo {
-    grid-area: logo;
     width: 200px;
     height: 80px;
     background-image: url(https://i0.wp.com/wptavern.com/wp-content/uploads/2016/06/udacity.png?ssl=1);

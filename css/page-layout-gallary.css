@@ -1,7 +1,7 @@
 .page-layout {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: 80px 500px auto 50px;
+    grid-template-rows: 80px 50vh auto 50px;
     border: 1px dashed green;
     grid-template-areas:
     "head head head head"
@@ -27,10 +27,11 @@ body {
 }
 
 #main-image {
-    margin-top: 20px;
-    margin-left: 5vw;
-    margin-right: 5vw;
     grid-area: image;
+    margin-left: 5vw;
+    margin-right: 5vw;    
+    justify-content: center;
+    border: 1px dashed red;
 
 }
 

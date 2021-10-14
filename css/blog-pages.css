@@ -19,4 +19,13 @@ figcaption {
 
 }
 
+@media (max-width: 425px) {
+    .blog-image {
+        padding: 10px;
+        width: 55vw;
+    
+    }
+
+}
+
 

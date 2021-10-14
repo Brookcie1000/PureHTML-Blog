@@ -73,6 +73,7 @@ body {
     "title"
     "sub-title"
     "txt";
+    row-gap: 40px;
     padding: 20px;
     grid-area: cont;
     margin-right: 5vw;
@@ -87,6 +88,7 @@ body {
 
 #sub-title {
     grid-area: sub-title;
+    font-size: 13px;
 
 }
 
@@ -133,7 +135,7 @@ body {
 @media (min-width: 768px) {
     .page-layout {
         display: grid;
-        grid-template-columns: 30vw auto auto auto;
+        grid-template-columns: 35vw auto auto auto;
         grid-template-rows: 80px auto 50px 50px;
         /*border: 1px dashed green;*/
         grid-template-areas:
@@ -207,6 +209,7 @@ body {
         padding: 20px;
         grid-area: cont;
         margin-right: 5vw;
+        margin-left: 0px;
         
     }
     
@@ -234,6 +237,7 @@ body {
         background-color: seashell;
         grid-area: bttn;
         margin-right: 5vw;
+        margin-left: 0px;
     
     }
     

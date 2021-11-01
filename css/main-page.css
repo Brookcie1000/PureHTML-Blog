@@ -1,6 +1,6 @@
-@import "/css/page-layout-gallary.css";
-@import "/css/footer.css";
-@import "/css/header.css";
+@import "page-layout-gallary.css";
+@import "footer.css";
+@import "header.css";
 
 
 #post-card-image {

@@ -1,9 +1,9 @@
-@import "/css/page-layout-blog.css";
-@import "/css/footer.css";
-@import "/css/header.css";
+@import "page-layout-blog.css";
+@import "footer.css";
+@import "header.css";
 
 #author-photo {
-    background-image: url("/images/profile-pic.jpg");
+    background-image: url("../images/profile-pic.jpg");
     background-size: 100% 100%;
 
 }
